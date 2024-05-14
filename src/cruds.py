@@ -97,3 +97,11 @@ def actualizar_empleado(db: Session, empleado: schemas.GeneralEmpleado, id_emple
                                                                                     "area": empleado.area,
                                                                                     "pago_realizado":empleado.pago_realizado})
     db.commit()
+
+def actualizar_pago_realizado( id_empleado: str, db: Session):
+        db.query(models.empleados).filter(models.empleados.id_empleado == id_empleado).update({"pago_realizado":True})
+        db.commit()
+
+def reiniciar_pago_realizado( db: Session):
+        db.query(models.empleados).update({"pago_realizado":False})
+        db.commit()

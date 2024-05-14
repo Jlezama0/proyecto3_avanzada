@@ -19,4 +19,3 @@ class empleados(Base):
     salario = Column(Integer)
     area = Column(String(50), ForeignKey("Departamentos.id_departamento"))
     pago_realizado = Column(Boolean, default=False)
-

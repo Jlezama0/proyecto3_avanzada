@@ -3,8 +3,9 @@ import pytz
 from sqlalchemy.orm import Session
 from fastapi.security import  OAuth2PasswordRequestForm
 from datetime import  timedelta
-import cruds, models, schemas
+import cruds, models, schemas, crear_pdf
 from db_conection import SessionLocal, engine
+from datetime import datetime
 
 models.Base.metadata.create_all(bind=engine)
 
@@ -17,6 +18,15 @@ def get_db():
         yield db
     finally:
         db.close()
+
+
+fecha = datetime.now()
+if fecha.day == 30 and fecha.hour == 18:
+    crear_pdf.generate_pdf(db= SessionLocal())
+
+if fecha.day == 15:
+    cruds.reiniciar_pago_realizado(db=SessionLocal())
+
 
 '''CRUD para empleados: Este crud permite hacer login a cada empleado, ademas permite la visualización
     de todos los registros, de un registro utilizando el numero de identificacion y la actulización de
@@ -43,7 +53,6 @@ def get_empleado(doc_empleado: str, db: Session= Depends(get_db)):
 @app.get("/empleados/", response_model=list[schemas.EmpleadoBase])
 def obtener_empleados(db: Session= Depends(get_db), skip: int = 0, limit: int = 100):
     users = cruds.get_empleados(db , skip=skip, limit=limit)
-    print(users)
     return users
 
 @app.put("/actualizarInfo/", response_model=schemas.InfoEmpleado)

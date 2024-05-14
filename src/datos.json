@@ -1,0 +1,137 @@
+[
+    {
+    "id_empleado": "E0001",
+    "documento": "1234567890",
+    "nombre_completo": "Juan Pérez",
+    "correo": "juan.perez@example.com",
+    "salario": 2000000,
+    "area": "D01",
+    "contraseña": "Password123"
+    },
+    {
+    "id_empleado": "E0002",
+    "documento": "2345678901",
+    "nombre_completo": "María García",
+    "correo": "maria.garcia@example.com",
+    "salario": 1800000,
+    "area": "D02",
+    "contraseña": "SecurePass"
+    },
+    {
+    "id_empleado": "E0003",
+    "documento": "3456789012",
+    "nombre_completo": "Pedro López",
+    "correo": "pedro.lopez@example.com",
+    "salario": 1600000,
+    "area": "D03",
+    "contraseña": "SimplePass"
+    },
+    {
+    "id_empleado": "E0004",
+    "documento": "4567890123",
+    "nombre_completo": "Ana Martínez",
+    "correo": "ana.martinez@example.com",
+    "salario": 1700000,
+    "area": "D04",
+    "contraseña": "MyPassword"
+    },
+    {
+    "id_empleado": "E0005",
+    "documento": "5678901234",
+    "nombre_completo": "Carlos Rodríguez",
+    "correo": "carlos.rodriguez@example.com",
+    "salario": 1900000,
+    "area": "D05",
+    "contraseña": "EasyPass123"
+    },
+    {
+    "id_empleado": "E0006",
+    "documento": "6789012345",
+    "nombre_completo": "Laura Sánchez",
+    "correo": "laura.sanchez@example.com",
+    "salario": 2000000,
+    "area": "D06",
+    "contraseña": "123456789"
+    },
+    {
+    "id_empleado": "E0007",
+    "documento": "7890123456",
+    "nombre_completo": "David Gómez",
+    "correo": "david.gomez@example.com",
+    "salario": 1800000,
+    "area": "D01",
+    "contraseña": "qwerty123"
+    },
+    {
+    "id_empleado": "E0008",
+    "documento": "8901234567",
+    "nombre_completo": "Paula Hernández",
+    "correo": "paula.hernandez@example.com",
+    "salario": 1600000,
+    "area": "D02",
+    "contraseña": "abc123"
+    },
+    {
+    "id_empleado": "E0009",
+    "documento": "9012345678",
+    "nombre_completo": "Mario Pérez",
+    "correo": "mario.perez@example.com",
+    "salario": 1700000,
+    "area": "D03",
+    "contraseña": "letmein"
+    },
+    {
+    "id_empleado": "E0010",
+    "documento": "1122334455",
+    "nombre_completo": "Sara Gutiérrez",
+    "correo": "sara.gutierrez@example.com",
+    "salario": 1900000,
+    "area": "D04",
+    "contraseña": "pass1234"
+    },
+    {
+    "id_empleado": "E0011",
+    "documento": "2233445566",
+    "nombre_completo": "Andrés López",
+    "correo": "andres.lopez@example.com",
+    "salario": 2000000,
+    "area": "D05",
+    "contraseña": "hello123"
+    },
+    {
+    "id_empleado": "E0012",
+    "documento": "3344556677",
+    "nombre_completo": "Marina Martínez",
+    "correo": "marina.martinez@example.com",
+    "salario": 1800000,
+    "area": "D06",
+    "contraseña": "test123"
+    },
+    {
+    "id_empleado": "E0013",
+    "documento": "4455667788",
+    "nombre_completo": "Roberto Sánchez",
+    "correo": "roberto.sanchez@example.com",
+    "salario": 1600000,
+    "area": "D01",
+    "contraseña": "password"
+    },
+    {
+    "id_empleado": "E0014",
+    "documento": "5566778899",
+    "nombre_completo": "Ana Rosa",
+    "correo": "ana.rosa@example.com",
+    "salario": 1700000,
+    "area": "D02",
+    "contraseña": "admin123"
+    },
+    {
+    "id_empleado": "E0015",
+    "documento": "6677889900",
+    "nombre_completo": "Javier García",
+    "correo": "javier.garcia@example.com",
+    "salario": 1900000,
+    "area": "D03",
+    "contraseña": "welcome1"
+    }
+]
